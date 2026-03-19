@@ -19,8 +19,7 @@ BLOCK_SIZE = 1024   # hop
 N_FFT = 2048        # 2*hop recommended
 OUTPUT_CHANNELS = 2
 
-# === 修正③: ウィンドウの横幅を少し広げてメーターのテキスト見切れを防止 ===
-WIN_W, WIN_H = 1460, 760  # 幅を1400から1460に拡張
+WIN_W, WIN_H = 1460, 760
 
 MOVE_STEP = math.radians(3.0)
 LONGPRESS_DELAY = 0.6
