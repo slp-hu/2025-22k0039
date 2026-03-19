@@ -1,15 +1,3 @@
-# beam_search_realtime_maxdi_sources_export.py
-# AmbiX (W,Y,Z,X) FOA -> realtime MaxDI steering + 2-stage direction search
-# UI:
-#  - Play / Pause / Stop buttons
-#  - Add button: save current PLAY direction with a name (text input)
-#  - Save button: export SOURCES list to .txt in the requested format
-#
-# Visual:
-#  - Draw only 2 search points: Stage1 best (small) + FINAL best (bigger), both labeled
-#  - Labels are clamped so they don't go off-screen
-#  - Saved sources are drawn and listed
-
 import argparse
 import math
 import threading
