@@ -10,4 +10,4 @@ macOSでは母フォルダにあるmixer.pyは動作しません。
 |:---|:---:|
 |OS|macOS バージョン15.7.7（24G720）|
 |メモリ| Apple M1|
-|エディタ|VScode (+ Anaconda)|
+|エディタ|VScode (Anacondaの仮想環境あり)|
